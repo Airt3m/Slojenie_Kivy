@@ -21,6 +21,6 @@ class MainApp(App):
         return main_layout
  
      
-if name == "main":
+if __name__ == "__main__":
     app = MainApp()
     app.run()
